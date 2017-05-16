@@ -7,7 +7,7 @@ Created on 2013-7-2
 
 import re, copy, math, numpy, time,pysam
 from itertools import combinations
-from NGS.BasicUtil import VCFutil
+from src.NGS.BasicUtil import VCFutil
 
 
 

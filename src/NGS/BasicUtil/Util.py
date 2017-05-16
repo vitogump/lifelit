@@ -13,9 +13,9 @@ Created on 2013-6-30
 @author: rui
 '''
 currentpath=os.path.realpath(__file__)
-currentpath[:currentpath.find("life/src")]+"life/com/config.properties"
+currentpath[:currentpath.find("lifelit/src")]+"lifelit/com/config.properties"
 cfparser = configparser.ConfigParser()
-cfparser.read(currentpath[:currentpath.find("life/src")]+"life/com/config.properties")
+cfparser.read(currentpath[:currentpath.find("lifelit/src")]+"lifelit/com/config.properties")
 
 ip=cfparser.get("mysqldatabase","ip")
 print(currentpath,ip)#currentpath[:currentpath.find("life/src")]+"life/com/config.properties")
@@ -27,8 +27,8 @@ pekingduckchromtable=cfparser.get("mysqldatabase","pekingduckchromtable")
 ghostdbname=cfparser.get("mysqldatabase","ghostdbname")
 vcfdbname=cfparser.get("mysqldatabase","vcfdbname")
 TranscriptGenetable=cfparser.get("mysqldatabase","TranscriptGenetable")
-D2Bduckchromtable=cfparser.get("mysqldatabase","D2Bduckchromtable")
-KB743256_1=cfparser.get("mysqldatabase","KB743256_1")
+
+
 outgroupVCFBAMconfig_beijingref=cfparser.get("mysqldatabase","outgroupVCFBAMconfig_beijingref")
 pathtoPython=cfparser.get("mysqldatabase", "pathtoPython")
 beijingreffa=cfparser.get("mysqldatabase","beijingreffa")
