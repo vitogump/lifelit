@@ -10,7 +10,7 @@ from src.pipelinecontrol.Util import *
 
 #just fo
 parser = OptionParser()
-
+wuqiong
 
 ttest 
 #scriptDir,mode="series",logfile
