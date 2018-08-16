@@ -12,7 +12,7 @@ from src.pipelinecontrol.Util import *
 parser = OptionParser()
 
 
-
+ttest 
 #scriptDir,mode="series",logfile
 parser.add_option("-d", "--scriptDir", dest="scriptDir",help="scriptDir")
 parser.add_option("-s", "--scripts", dest="scripts",action="append",help="oneline scriptexamplefile not in use so far")
